@@ -1,0 +1,20 @@
+{
+  "name": "backend-ddm",
+  "version": "1.0.0",
+  "description": "Servidor de Backend para Estudos",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "zod"
+  ],
+  "author": "Guilherme Rodrigues Santos",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
